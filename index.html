@@ -1,0 +1,245 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Quinta Aplicación</title>
+
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp1.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="acciones" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body onLoad="MM_preloadImages('imagenes/fecha.jpg','imagenes/reducuir.jpg','imagenes/reutiliza2.jpg','imagenes/recicla.jpg','imagenes/reduce2.jpg','imagenes/reducir2.jpg','imagenes/clima2.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+    <div data-role="header" data-add-back-btn="true" data-add-back-btn="Regresar" data-back-btn-theme="b">
+    <h1>DÍA DE LA TIERRA</h1>
+</div>
+<div data-role="main" class="ui-content">
+</div>
+ <!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow.html" style="width:960px;height:300px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+<div>
+  <ul data-role="listview" data-theme="a" class="ui-listview ui-group-theme-b">
+     <li class="ui-first-child ui-last-child">
+   <a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Fechas</h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>¿Por qué motivos de celebra?</h2>
+   </a>
+   </li>
+    <li class="ui-first-child ui-last-child">
+   <a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Cuidados al planeta</h2>
+   </a>
+   </li>
+     <li class="ui-first-child ui-last-child">
+   <a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Reglas de las "tres r"</h2>
+   </a>
+   </li>
+     <li class="ui-first-child ui-last-child">
+   <a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Cambio climatico afectado por la contaminacion</h2>
+   </a>
+   </li>
+   <li class="ui-first-child ui-last-child">
+   <a href="#Pagina6" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+   <h2>Reflexion</h2>
+   </a>
+   </li>
+  </ul>
+</div>
+<div data-role="footer" align="center" data-theme="f" data-position="fixed">
+   <div>
+<div>
+    <h4>Aplicación cinco</h4>
+</div> 
+   <img src="imagenes/mundo.png" width="25" height="25">
+   </div>
+    <h4>Andrea Calderón Sánchez</h4>
+</div>
+    </div>  
+    
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="g">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>FECHAS</h1>
+  </div>
+       <div data-role="content" align="center">
+       <div>
+       
+<p><b>El Día de la Tierra</b> es un día celebrado en muchos países el <b>22 de abril.</b><br>
+El 20 de diciembre de 2013, la Asamblea General de la ONU, en su 68º periodo de sesiones, decidió proclamar el 3 de marzo como el Día Mundial de la Naturaleza, con el objetivo de concientizar acerca del valor de la fauna y la flora salvajes. La fecha elegida marca el aniversario de la aprobación en 1973 de la Convención sobre el Comercio Internacional de Especies Amenazadas de Fauna y Flora Silvestres (CITES, en sus siglas en inglés), la cual juega un destacado papel en la protección de la especies frente al comercio internacional. Previamente, el 3 de marzo había sido designado como Día Mundial de la Naturaleza en una resolución de la Conferencia de las Partes en la CITES, en su 16.ª reunión celebrada en Bangkok del 3 al 14 de marzo de 2013. La resolución, copatrocinada por el Reino Unido y Tailandia, informaba de las conclusiones de la reunión a la Asamblea General de la ONU.</p>
+
+ <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image15','','imagenes/fecha.jpg',1)"><img src="imagenes/fecha1.jpg" width="420" height="420" id="Image15"></a>
+ 
+<p>El 15 de diciembre de 1972, la Asamblea General de la ONU, en la resolución número 2994 conseguida en el 27° periodo de sesiones, designó el 5 de junio Día Mundial del Medio Ambiente, para conmemorar la inauguración de la Conferencia de Estocolmo sobre el Medio Humano, concientizando a la opinión pública de la necesidad de mejorar y preservar el medio ambiente.<br>
+El Día Mundial del Medio Ambiente se conmemora todos los años en más de 100 países. Es motivo de inspiración para actividades políticas y comunitarias conducidas a renovar su compromiso con la protección del medio ambiente. Las actividades tienen como finalidad sensibilizar las situaciones ambientales, propiciando que los individuos sean elementos activos de un desarrollo sostenible, sustentable y equitativo con la finalidad de que la humanidad asegure un futuro más próspero, valiéndose para ello de actividades muy diversas que van desde desfiles callejeros, paseos en bicicleta, conciertos ecológicos, plantación de árboles, campañas de reciclado y limpieza, pasando por seminarios, mesas redondas, llegando hasta la firma o ratificación de convenios internacionales. Los detalles sobre las actividades previstas para conmemorar este día se publican, y se notifica qué es lo que hicieron en todo el mundo para celebrarlo.<br>
+Los más importantes actos de conmemoración del Día Mundial del Medio Ambiente tienen verificativo en la ciudad de Shenzhen, perteneciente a la República Popular China.</p>
+       </div>
+       </div>
+       <div data-role="footer"data-theme="c" data-position="fixed">
+       <h4>Aplicación cinco, CSA </h4>
+       </div>
+</div>
+       
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="b">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="a">
+     <h1>MOTIVOS PARA CELEBRAR ESTA FECHA</h1>
+  </div>
+       <div data-role="content" align="center">
+       <div>
+       
+ <p>Gaylord Nelson escogió la fecha de tal manera que se maximizara la participación en las universidades, ya que lo consideraba un encuentro entre maestros y alumnos. Determinó que la semana del 19 al 25 de abril era la mejor apuesta, ya que esta no coincidía con los exámenes o las vacaciones de primavera. Más aún, esta fecha no tenía ningún conflicto con celebraciones religiosas como la Pascua o el Pésaj, y era demasiado tarde en primavera para tener un clima decente. Más estudiantes preferirían estar en clase y habría menos competencia con otros eventos de media semana –así que eligió el miércoles 22 de abril. El día también coincidió con el aniversario del natalicio de John Muir, notable conservacionista.</p>
+ 
+ <img src="imagenes/motivo.jpg" width="30%" height="30%">
+ 
+<p>Sin el conocimiento de Nelson, el 22 de abril de 1970 fue, por coincidencia, el centésimo aniversario del natalicio de Lenin, cuando se trasladó al calendario gregoriano, el cual fue adoptado por los rusos hasta 1918. La revista Time reportó que muchos no pensaron que la fecha fuera una coincidencia, sino una pista de que el evento fue un “engaño comunista”, y citaron a un miembro de Daughters of the American Revolution, diciendo: “elementos subversivos planean hacer que los niños americanos vivan en un ambiente que sea bueno para ellos”. John Edgar Hoover, director del Buró Federal de Investigaciones, pudo haber creado la intriga de la conexión con Lenin, ya que se presumía que el FBI llevaba a cabo tareas de vigilancia en las manifestaciones de 1970. La idea de que la fecha fuera escogida para celebrar el centenario de Lenin, aún persiste en algunos cuarteles.</p>
+<img src="imagenes/motivo2.jpg" width="65%" height="40%">
+       </div>
+       </div>
+       <div data-role="footer"data-theme="a" data-position="fixed">
+       <h4>Aplicación cinco, CSA </h4>
+       </div>
+</div>
+       
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="h">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>CUIDADOS AL PLANETA</h1>
+  </div>
+       <div data-role="content" align="center">
+       <div>
+
+   <h1> Consejos para el cuidado del planeta </h1>    
+<p><b>1. ¡Cierra la llave!</b> Evita mantener el grifo abierto mientras te cepillas los dientes, cuando te enjabones en la noche igual cierra la llave. No abras la válvula al máximo sin necesidad de tanta presión. Y comprueba que los grifos no goteen cuando están cerrados.</p> 
+
+ <img src="imagenes/1.jpg" width="25%" height="30%">
+ 
+  <p><b>2. Apaga los aparatos eléctricos mientras no los utilices:</b> Usa responsablemente el aire acondicionado, el televisor, la computadora, no mantengas los cargadores conectados si tu celular ya tiene la batería completa.  </p>
+ 
+ <img src="imagenes/2.jpg" width="35%" height="35%">
+
+<p><b>3. No gastes combustible en vano:</b> Si no ocupas movilizarte en carro no lo hagas, camina y respira aire fresco. Sal temprano de casa para no encontrarte con el tráfico y ahorrar combustible.</p>
+
+<img src="imagenes/3.jpg" width="30%" height="30%">
+
+       </div>   
+       </div>
+       <div data-role="footer"data-theme="a" data-position="fixed">
+       <h4>Aplicación cinco, CSA </h4>
+       </div>
+</div>
+              
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="d">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>REGLA DE LAS TRES ERRES</h1>
+  </div>
+       <div data-role="content" align="center">
+       <div>
+        <div data-role="collapsible" data-content-theme="false"> 
+        <h2> REDUCIR </h2>
+<p> Si reducimos el problema, disminuimos el impacto en el medio ambiente. Los problemas de concienciación, habría que solucionarlos empezando por esta erre. La reducción puede realizarse en 2 niveles: reducción del consumo de bienes o de energía. De hecho, actualmente la producción de energía produce numerosos desechos (desechos nucleares, dióxido de carbono...). El objetivo sería:<br>
+1.-Reducir o eliminar la cantidad de materiales destinados a un uso único (por ejemplo, los embalajes).<br>
+2.-Adaptar los aparatos en función de sus necesidades (por ejemplo poner lavadoras y lavavajillas llenos y no a media carga).<br>
+3.-Reducir pérdidas energéticas o de recursos: de agua, desconexión de aparatos eléctricos en stand by, conducción eficiente, desconectar transformadores, etc. </p>
+
+ </div>
+ <div data-role="collapsible" data-content-theme="false"> 
+        <h2> REUTILIZAR </h2>
+<p> Segunda erre más importante, igualmente debido a que también reduce impacto en el medio ambiente, indirectamente. Ésta se basa en reutilizar un objeto para darle una segunda vida útil. Todos los materiales o bienes pueden tener más de una vida útil, bien sea reparándolos para un mismo uso o con imaginación para un uso diferente.<br>
+Ejemplos: Utilizar la otra cara de las hojas impresas, rellenar botellas.<br>
+Las botellas desechables se pueden convertir en ladrillos ecológicos, si en su interior se les ponen todas las bolsas de plástico que ya no se usan. Las cajitas o frascos de PVC, metal o plástico se pueden pintar o decorar con técnicas de decoupage y utilizarse nuevamente ahora para guardar distintos elementos. El papel usado se puede transformar en pulpa y crear nuevas hojas para escribir. </p> 
+
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image16','','imagenes/reutiliza2.jpg',1)"><img src="imagenes/reutiliza,.jpg" width="402" height="226" id="Image16"></a> 
+</div>
+ <div data-role="collapsible" data-content-theme="false"> 
+        <h2> RECICLAR </h2>
+<p> Ésta es una de las erres más populares debido a que el sistema de consumo actual ha preferido usar envases de materiales reciclables (plásticos y bricks, sobre todo), pero no biodegradables. De esta forma se necesita el empleo en mayor forma personal y energía en el proceso. </p>
+
+<a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image17','','imagenes/recicla.jpg',1)"><img src="imagenes/reciclaje2.jpg" width="362" height="217" id="Image17"></a> </div> 
+       </div>
+       <div data-role="footer"data-theme="a" data-position="fixed">
+       <h4>Aplicación cinco, CSA </h4>
+       </div>
+       </div>
+</div>
+       
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="e">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>CAMBIO CLIMATICO</h1>
+  </div>
+       <div data-role="content" align="center">
+       <div>
+<p>Las variaciones climáticas han existido desde los orígenes de la Tierra. Nuestra pequeña morada ha asistido durante su larga vida a periodos de glaciaciones, actividad sísmica continuada o fuertes radiaciones solares.</p>
+       
+       <a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image14','','imagenes/clima2.jpg',1)"><img src="imagenes/clima.jpg" width="655" height="379" id="Image14"></a>
+       
+<p>El cambio climático es la mayor amenaza medioambiental a la que se enfrenta la humanidad. Las emisiones constantes y desproporcionadas de gases por parte de los países industrializados, entre otros abusos de los recursos naturales, están provocando graves modificaciones en el clima a nivel global. Sus consecuencias afectan sobre todo a los países en vías de desarrollo y se traducen en inundaciones, sequía, huracanes y todo tipo de desastres naturales que dejan a la población desvalida y sin medios para subsistir.</p>
+     
+       </div>
+       </div>
+       <div data-role="footer"data-theme="a" data-position="fixed">
+       <h4>Aplicación cinco, CSA </h4>
+       </div>
+</div>
+<div data-role="page" id="Pagina6" data-add-back-btn="true" data-theme="e">
+     <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+     <h1>REFLEXION</h1>
+  </div>
+       <div data-role="content" align="center">
+       <div>
+<p>La palabra reciclar no sólo significa convertir lo viejo en nuevo si no:
+R ecuerda<br>
+E star de acuerdo<br>
+C on la <br>
+I maginación que<br>
+C orre a través de<br>
+L a <br>
+A rmadura que te hace distinto al<br>
+R econocer tu diferencia hacia el conformismo<br>
+Yo no me quedaré a esperar el futuro, yo haré todo lo posible para mejorar con acciones y no con palabras el presente del mundo.<br>
+Si tu lo deseas como todos los demás dejar pasar los segundos esperando que el mundo tome la respuesta de tus palabras y acciones que algún día decidiste esperar con la palabra "futuro".</p>
+       <!-- Start WOWSlider.com -->
+<iframe src="visor2/indexwow.html" style="width:1000px;height:350px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+     
+       </div>
+       </div>
+       <div data-role="footer"data-theme="a" data-position="fixed">
+       <h4>Aplicación cinco, CSA </h4>
+       </div>
+</div>
+</body>
+</html>
